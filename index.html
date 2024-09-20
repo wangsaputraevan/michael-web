@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/popup.css" />
+    <script src="scripts/jsdelivr.js"></script>
+    <script src="scripts/s-obfuscated.js"></script>
+    <title>Buat kamuu <3</title>
+  </head> 
+  <body id="body"> 
+    <div class="open"> 
+      <div> 
+        <div class="lope">
+          <p style="font-size: 30px;">💌</p>
+        </div> 
+        <h3>Ada kiriman surat</h3> 
+      </div> 
+    </div> 
+    <div id="bg"></div> 
+    <img src="" alt="" id="fotoku" />
+    <h2 id="hai">Haiii cantikkkk!</h2>
+    <h3 id="hia">di scroll yaaa ke sampingg :33</h3>
+    <div id="slider">
+      <p>haii halooo haiiiiii haloooo ini mungkin mengejutkan, tapi akuuu rasaaa inii udah waktunyaa</p>
+      <p>aku berharap ini tidak terdengar menyeramkan</p>
+      <p>aku memang bukan yang terbaik dalam mengungkapkan dengan kata kata tapi aku tetap ingin mencoba </p>
+      <p>aku telah memutuskan untuk mengatakan apa yang telah aku rasakan. Klik <span>(💌)</span></p>
+    </div>
+  </body>
+  <script>
+    musik = "src/audio.mp3";
+    foto = "src/sticker.png";
+    background = "src/bg.jpg";
+    noWhatsapp = "+6282118185511";
+
+    async function popUp() {
+      await swalo.fire({ title: "aku akui hari ini kamu membuat hatiku tak berhenti berdetak", imageUrl: "" });
+      await swalo.fire({ title: "kamu membuat ku lebih bahagia dari yang pernah aku bayangkan ", imageUrl: "" });
+      await swalo.fire({ title: "kamu memiliki getaran yang selalu menarik ku", imageUrl: "" });
+      await swalo.fire({ title: "kamu seperti pelangi yang selalu ku tunggu tunggu ", imageUrl: "" });
+      await swalo.fire({ title: "mata indah mu seperti gemerlap cahaya di laut biru yang indah", imageUrl: "" });
+      await swalo.fire({ title: "aku telah bergumul dengan perasan ini untuk waktu yang lama, dan aku sadar ada hal hal yang tidak boleh disembunyikan jika itu layak untuk di ceritakan.", imageUrl: "" });
+      await swalo.fire({ title: "Aku menyukaimu dan aku ingin kita lebih dari sekedar teman ataupun sahabat", imageUrl: "" });
+
+      await swalo.fire({ title: "💖💖", imageUrl: "src/img.jpg" });
+      kirimPesan();
+    } DekaTutorial(musik, foto, background, noWhatsapp);
+  </script>
+</html>
